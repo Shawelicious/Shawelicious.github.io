@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="TechDocPage.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>CC14 Web Application Development Documentation</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li>
+          <a class="nav-link" href="#What_you_should_already_know"
+            >Basic HTML Elements</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#JavaScript_and_Java"
+            >Client-Side vs. Server-Side Development</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Hello_world">Overview of Web Technologies</a></li>
+        <li><a class="nav-link" href="#Variables">How to Create Account on Github</a></li >
+        <li><a class="nav-link" href="#Reference">Reference</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <article>
+          <p>
+            Web Application Development involves structuring the content in a logical and progressive manner, covering key concepts and skills necessary for developing web applications. Below is a sample course outline that you can customize based on the specific technologies, tools, and programming languages you intend to cover. This outline assumes a basic understanding of HTML, CSS, and JavaScript.
+          </p>
+
+          <p>
+            Module 2: Frontend Development  
+          </p>
+          <p>Section A: Advanced HTML and CSS
+          </p>
+          <ul>
+            <li>
+              HTML5 Semantic Elements
+            </li>
+            <li>
+              CSS Flexbox and Grid Layout
+            </li>
+            <li>
+              Responsive Web Design
+            </li>
+<p>Section B: JavaScript and DOM Manipulation
+
+</p>
+            <li>JavaScript Basics and ES6 Features</li>
+            <li>Document Object Model (DOM) Manipulation</li>
+            <li>Event Handling and AJAX</li>
+
+            <p>Module 3: Introduction to Backend Development</p>
+            <li>Overview of Server-Side Programming</li>
+            <li>Introduction to Node.js and Express.js</li>
+            <li>Setting Up a Development Environment</li>
+
+            <p>Module 4: Database Integration</p>
+            <li>Relational vs. NoSQL Databases</li>
+            <li>MongoDB Setup and CRUD Operations</li>
+            <li>Connecting Backend with Database</li>
+
+            <p>Module 5: RESTful API Development</p>
+            <li>Understanding REST Architecture</li>
+            <li>Building RESTful APIs with Express.js</li>
+            <li>API Documentation and Testing</li>
+
+            <p>Module 6: Frontend Frameworks</p>
+            <p>Section A: Introduction to Frontend Frameworks</p>
+            <li>Overview of Frontend Frameworks (e.g., React, Angular, Vue)</li>
+            <li>Choosing a Frontend Framework for the Project</li>
+
+            <p>Section B: React.js Fundamentals</p>
+            <li>Components and Props</li>
+            <li>State and Lifecycle</li>
+            <li>Handling Forms and Events</li>
+
+            <p>Module 7: State Management in Web Applications
+              <li>Introduction to State Management</li>
+              <li>Implementing State Management with Redux (or other state management tools)</li>
+              <li>Handling Asynchronous Operations</li>
+              
+              <p>Module 8: Authentication and Authorization</p>
+              <li>User Authentication Concepts</li>
+              <li>Implementing User Authentication with JWT</li>
+              <li>Role-Based Authorization</li>
+
+              <p>Module 9: Web Security Best Practices</p>
+              <li>Common Security Threats in Web Applications</li>
+              <li>Cross-Site Scripting (XSS) and Cross-Site Request Forgery (CSRF) prevention</li>
+              <li>HTTPS and Secure Coding Practices</li>
+
+              <p>Module 10: Deployment and DevOps</p>
+              <li>Version Control with Git</li>
+              <li>Deployment Strategies (e.g., Heroku, AWS, Netlify)</li>
+              <li>Continuous Integration and Continuous Deployment (CI/CD)</li>
+              
+              <p>Module 11: Testing and Debugging</p>
+              <li>Unit Testing and Test-Driven Development (TDD)</li>
+              <li>Debugging Techniques in Web Development</li>
+              <li>Performance Optimization</li>
+
+              <p>Module 12: Final Project</p>
+              <li>Capstone Project: Building a Full-Stack Web Application</li>
+              <li>Project Presentation and Code Review</li>
+            </p>
+            
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="What_you_should_already_know">
+        <header>Basic HTML Elements</header>
+        <article>
+          <p>This guide assumes you have the following basic HTML Elements:</p>
+
+          <table>
+            <tr>
+              <th>Tags</th>
+              <th>Description</th>
+            </tr>
+            <tr>
+              <td><>!Doctype</td>
+              <td>	
+                -- Defines the document type</td>
+            </tr>
+            <tr>
+              <td><>html</td>
+              <td>-- Defines an HTML document</td>
+            </tr>
+            <tr>
+              <td><>head</td>
+              <td>	
+                -- Contains metadata/information for the document</td>
+            </tr>
+            <tr>
+              <td><>Title</td>
+              <td>-- 	
+                Defines a title for the document</td>
+            </tr>
+            <tr>
+              <td><>Body</td>
+              <td>-- Defines the document's body</td>
+            </tr>
+            <tr>
+              <td><>h1 to <>h6</td>
+              <td>	
+                -- Defines HTML headings</td>
+            </tr>
+            <tr>
+              <td><>p</td>
+              <td>--	
+                 Defines a paragraph</td>
+            </tr>
+            <tr>
+              <td><>br</td>
+              <td>--Inserts a single line break</td>
+            </tr>
+            <tr>
+              <td><>hr</td>
+              <td>-- 	
+                 Defines a thematic change in the content</td>
+            </tr>
+            <tr>
+              <td><>!--..--</td>
+              <td>-- Defines a comment</td>
+            </tr>
+          </table>
+
+
+
+
+        </article>
+      </section>
+      <section class="main-section" id="JavaScript_and_Java">
+        <header>Client-Side vs. Server-Side Development</header>
+        <article>
+          <p>
+            Client-side and server-side development are two distinct aspects of web development that involve different technologies, responsibilities, and functionalities. 
+          </p>
+          <p>
+            Client-Side Development: 
+          </p>
+
+          <ul>
+            <li>Definition: Client-side development refers to the activities that take place on the user's device (typically a web browser) and involve the user interface and user experience.</li>
+            <li>Technologies: HTML (Hypertext Markup Language), CSS (Cascading Style Sheets), JavaScript, and various front-end frameworks and libraries like React, Angular, or Vue.js.</li>
+            <li>Responsibilities:
+              <ol>Creating the structure (HTML) and style (CSS) of a web page.</ol>
+              <ol>Implementing interactive and dynamic features using JavaScript.</ol>
+              <ol>Managing the presentation layer and user interactions.</ol>
+            </li>
+            <li>
+              Advantages:
+              <ol>Fast and responsive user interfaces.</ol>
+              <ol>Reduces server load as certain operations are performed on the client's side.</ol>
+              <ol>Enhanced user experience with dynamic and interactive elements.</ol>
+            </li>
+          </ul>
+          <p>Server-Side Development:</p>
+          <ul>
+            <li>Definition: Server-side development involves activities that occur on the web server, managing and processing data, handling requests, and performing various server-related operations.</li>
+            <li>Technologies: Server-side languages such as PHP, Python (Django), Ruby (Ruby on Rails), Java (Spring), and JavaScript (Node.js).</li>
+            <li>Responsibilities:
+              <ol>
+              Handling data storage and retrieval from databases.</ol>
+              <ol>Executing business logic and application functionality.</ol>
+              <ol>Managing user authentication and authorization.</ol>
+              <ol>Generating dynamic content to be sent to the client.</ol>
+            </li>
+            <li>Advantages:</li>
+            <ol>Enhanced security as sensitive operations are performed on the server.</ol>
+            <ol>Centralized control over data and business logic.</ol>
+            <ol>Better scalability for handling a large number of users.</ol>
+          </ul>
+          <p>Interaction Between Client-Side and Server-Side:</p>
+          <ul>
+            <li>Communication: Both sides communicate through protocols like HTTP(S), and they exchange data using formats like JSON or XML.</li>
+            <li>Workflow: A typical web application involves the client making requests to the server, and the server responds with the necessary data or performs actions.</li>
+          </ul>
+          <p>Full-Stack Development:</p>
+          <li>Definition: Developers who work on both client-side and server-side aspects are known as full-stack developers.</li>
+          <li>Responsibilities: Full-stack developers have a broader skill set and can handle tasks ranging from designing user interfaces to managing server infrastructure.</li>
+          <p>In modern web development, a balanced combination of both client-side and server-side technologies is crucial for building robust and efficient web applications. The choice between them depends on factors such as project requirements, performance considerations, and the desired user experience.</p>
+        </article>
+      </section>
+      <section class="main-section" id="Hello_world">
+        <header>Overview of Web Technologies</header>
+        <p>1. Definition of the Internet</p>
+        <ul>
+          <li>Internet Basics:</li>
+          <ol>Global network of interconnected computers.</ol>
+          <ol>Enables communication, information sharing, and collaboration.</ol>
+        </ul>
+        <p>2. Evolution of the World Wide Web</p>
+        <ul>
+          <li>Historical Development:</li>
+          <ol>Birth of the World Wide Web (WWW) by Tim Berners-Lee in 1989.</ol>
+          <ol>The birth of the Internet can be traced back to the late 1960s and early 1970s with the development of ARPANET (Advanced Research Projects Agency Network), a pioneering network that laid the groundwork for the interconnected global network we know today. Here are key milestones in the birth and early development of the Internet:</ol>
+        </ul>
+        <ul>
+          <li>ARPANET Creation (1969):</li>
+          <ol>ARPANET, the first packet-switching network, was developed by the United States Department of Defense's Advanced Research Projects Agency (ARPA, now DARPA).</ol>
+          <ol>On October 29, 1969, ARPANET's first message was sent between two computers at the University of California, Los Angeles (UCLA) and the Stanford Research Institute (SRI). The message was "LOGIN.</ol>
+        </ul>
+        <ul>
+          <li>Development of TCP/IP (1970s):
+            <ol>The Transmission Control Protocol (TCP) and Internet Protocol (IP) were developed by Vinton Cerf and Bob Kahn.</ol>
+            <ol>TCP/IP became the standardized communications protocol suite for ARPANET, forming the foundation for the entire Internet.</ol>
+          </li>
+        </ul>
+        <ul>
+          <li>Expansion and Standardization (1970s-1980s):</li>
+          <ol>The ARPANET continued to grow, connecting more research institutions and universities.</ol>
+          <ol>TCP/IP was adopted as the protocol for connecting diverse networks, leading to the term "Internet" (short for interconnected networks).</ol>
+          <ol>The development of standardized protocols contributed to the Internet's expansion.</ol>
+        </ul>
+        <ul>
+          <li>Domain Name System (DNS) Introduction (1983):</li>
+          <ol>The Domain Name System, which translates human-readable domain names into IP addresses, was introduced in 1983.</ol>
+          <ol>This facilitated the use of easily memorable names instead of numerical IP addresses.</ol>
+        </ul>
+        <ul>
+          <li>Commercialization (1990s):</li>
+          <ol>The 1990s saw the commercialization of the Internet, with the launch of the World Wide Web and the development of browsers like Netscape.</ol>
+          <ol>The Internet became accessible to the public, leading to a rapid increase in websites and online services.</ol>
+        </ul>
+        <ul>
+          <li>Global Expansion and Popularization (1990s-Present):</li>
+          <ol>The Internet expanded globally, connecting people, businesses, and governments worldwide.</ol>
+          <ol>Technologies like broadband and mobile internet further increased accessibility.</ol>
+          <ol>The Internet has become an integral part of everyday life, shaping communication, commerce, education, and entertainment.</ol>
+        </ul>
+        <p>The birth and development of the Internet were collaborative efforts involving numerous individuals, institutions, and technological advancements. The ARPANET project laid the groundwork for the interconnected and decentralized network that has since transformed how information is shared and accessed globally.</p>
+        <ol>Transition from static to dynamic content.</ol>
+
+        <p>3. Key Internet Protocols</p>
+        <ul>
+          <li>HTTP (Hypertext Transfer Protocol):
+            <ol>Foundation of data communication on the web.</ol>
+            <ol>Defines how messages are formatted and transmitted.</ol>
+          </li>
+        </ul>
+        <ul>
+          <li>HTTPS (Hypertext Transfer Protocol Secure):
+            <ol>Secure version of HTTP using encryption (SSL/TLS).</ol>
+            <ol>Ensures secure data transfer, especially for sensitive information.</ol>
+          </li>
+        </ul>
+        <ul>
+          <li>TCP/IP (Transmission Control Protocol/Internet Protocol):
+            <ol>Fundamental suite of protocols for internet communication.</ol>
+            <ol>Facilitates reliable data transmission between connected devices.</ol>
+          </li>
+        </ul>
+
+        <p>4. Client-Server Architecture</p>
+        <ul>
+          <li>Roles:
+            <ol>Clients request services or resources.</ol>
+            <ol>Servers provide requested services or resources.</ol>
+          </li>
+        </ul>
+        <ul>
+          <li>Request-Response Cycle:
+            <ol>Clients send requests to servers.</ol>
+            <ol>Servers process requests and send back responses.</ol>
+          </li>
+        </ul>
+        <ul>
+          <li>Statelessness:
+            <ol>Each request from a client to a server is independent.</ol>
+            <ol>No retention of client state between requests.</ol>
+          </li>
+        </ul>
+
+        <p>5. Internet Technologies</p>
+        <ul>
+          <li>HTML (Hypertext Markup Language):
+            <ol>Standard markup language for creating web pages.</ol>
+            <ol>Defines structure and layout using tags.</ol>
+          </li>
+        </ul>
+        <ul>
+          <li>CSS (Cascading Style Sheets):
+            <ol>Style sheet language for describing the presentation of a document.</ol>
+            <ol>Enhances the visual presentation of HTML elements.</ol>
+          </li>
+        </ul>
+        <ul>
+          <li>JavaScript:
+            <ol>Programming language that enables dynamic content on web pages..</ol>
+            <ol>Enhances interactivity and user experience.</ol>
+          </li>
+        </ul>
+
+        <p>6. Responsive Web Design</p>
+        <ul>
+          <li>Importance:
+            <ol>Ensures web applications work well on various devices and screen sizes.</ol>
+            <ol>Enhances user experience across desktops, tablets, and mobile devices.</ol>
+          </li>
+        </ul>
+        <ul>
+          <li>Media Queries:
+            <ol>CSS technique for applying styles based on device characteristics.</ol>
+            <ol>Allows adaptation to different viewport sizes.</ol>
+          </li>
+        </ul>
+        <ul>
+          <li>Flexbox and Grid Layout:
+            <ol>CSS layout models that simplify the design of flexible and responsive web layouts.</ol>
+          </li>
+        </ul>
+        
+        <p>7. Conclusion</p>
+        <ul>
+          <li>Key Takeaways:</li>
+          <ol>The Internet is a global network connecting computers.</ol>
+          <ol>The World Wide Web facilitates information sharing and dynamic content.</ol>
+          <ol>Protocols like HTTP, HTTPS, and TCP/IP underpin internet communication.</ol>
+          <ol>Client-server architecture involves clients making requests and servers providing responses.</ol>
+          <ol>Web technologies such as HTML, CSS, and JavaScript enable web development.</ol>
+          <ol>Responsive web design ensures adaptability to diverse devices.</ol>
+        </ul>
+        <p>This overview provides a foundational understanding of key concepts in web technologies, including the Internet, the World Wide Web, internet protocols, client-server architecture, and fundamental web development technologies.</p>
+      
+
+      <section class="main-section" id="Variables">
+        <header>Creating an Account on Github</header>
+        <p>
+         
+      <h4> Create a personal account to get started with GitHub.</h4>
+        <p>
+          About your personal account on GitHub.com
+        </p>
+        <p>
+          To get started with GitHub, you'll need to create a free personal account on GitHub.com and verify your email address.
+
+          Every person who uses GitHub.com signs in to a personal account. Your personal account is your identity on GitHub.com and has a username and profile. For example, see (https://github.com/octocat).
+        </p>
+
+        <p>Signing up for a new personal account</p>
+        <p><ol>
+          1. Go to https://github.com
+        </ol></p>
+        <ol>
+          2. Click Sign up.
+        </ol>
+        <ol>
+          3. Follow the prompts to create your personal account.
+        </ol>
+      <p>During sign up, you'll be asked to verify your email address. Without a verified email address, you won't be able to complete some basic GitHub tasks, such as creating a repository.
+
+        If you're having problems verifying your email address, there are some troubleshooting steps you can take. For more information, see https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/verifying-your-email-address#troubleshooting-email-verification."</p>
+
+        <h4>Create a repository</h4>
+        <p>GitHub repositories store a variety of projects. In this guide, you'll create a repository and commit your first change.</p>
+        
+        <p>
+          <ol>1. In the upper-right corner of any page, select , then click New repository.</ol>
+          <ol>2. Type Your ID Number-WebApp for your repository name. Eg. 7100139—WebApp. This will make it easier to remember. </ol>
+          <ol>3. Optionally, add a description of your repository. For example, "My first repository on GitHub."</ol>
+          <ol>4. Choose a repository visibility. For more information, see "About repositories."</ol>
+          <ol>5. Select Initialize this repository with a README.
+            Click Create repository.</ol>
+        </p>
+      </section>
+ 
+      <section class="main-section" id="Reference">
+        <header>Reference</header>
+        <article>
+          <ul>
+            <li>
+              All the documentation in this page is taken from
+              <a
+                href=https://primusr.notion.site/a662b2bb023c4762b6b707fc1deabee3?v=64522154f60e424a887bbf64aebae4a8&p=c213cf6dbd834f6f8bcc2d02746209db&pm=s"
+                target="_blank"
+                >PRISMUSR NOTION SITE</a
+              >
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
