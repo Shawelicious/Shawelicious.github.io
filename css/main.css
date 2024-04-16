@@ -2258,7 +2258,11 @@ header .logo a {
 	color: white;
 }
 #contact .section-intro h5 {
+<<<<<<< HEAD
 	color: blue;
+=======
+	color: khaki;
+>>>>>>> 1769f80a1abe82c50b1ba39e7219a1e28816d3d4
 }
 #contact .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
@@ -2425,7 +2429,11 @@ header .logo a {
 	color: #FFFFFF;
 }
 .contact-info h5 {
+<<<<<<< HEAD
 	color: blue;
+=======
+	color: khaki;
+>>>>>>> 1769f80a1abe82c50b1ba39e7219a1e28816d3d4
 }
 
 /**
